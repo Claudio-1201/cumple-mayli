@@ -1,3 +1,13 @@
-function mostrarMensaje(mensaje) {
-    alert(mensaje);
+const contenedor = document.querySelector(".contenedor");
+
+function irDerecha(){
+    contenedor.style.transform = "translateX(-100vw)";
+}
+
+function irIzquierda(){
+    contenedor.style.transform = "translateX(0)";
+}
+
+function mostrarMensaje(){
+    alert("💖 Gracias por existir MAYLI, TE AMO MUCHOOOOOOOOOOOOOOOO 💖");
 }
